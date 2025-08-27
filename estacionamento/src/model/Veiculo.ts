@@ -16,6 +16,9 @@ export default abstract class Veiculo {
   public setHoraEntrada(hora: Date): void {
     this.horaEntrada = hora;
   }
+  public getHoraEntrada(): Date | undefined {
+    return this.horaEntrada;
+  }
 
 
 }
