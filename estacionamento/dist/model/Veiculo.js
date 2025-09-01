@@ -17,5 +17,8 @@ class Veiculo {
     setHoraEntrada(hora) {
         this.horaEntrada = hora;
     }
+    getHoraEntrada() {
+        return this.horaEntrada;
+    }
 }
 exports.default = Veiculo;

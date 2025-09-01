@@ -17,7 +17,8 @@ class TerminalView {
             console.log("1. Estacionar Veículo");
             console.log("2. Retirar Veículo");
             console.log("3. Ver Vagas Disponíveis");
-            console.log("4. Sair");
+            console.log("4. Cadastrar Cliente Mensalista");
+            console.log("5. Sair");
             const escolha = this.prompt("Escolha uma opção: ");
             switch (escolha) {
                 case "1":
@@ -30,6 +31,9 @@ class TerminalView {
                     console.log("Opção 3 selecionada: Ver Vagas Disponíveis");
                     break;
                 case "4":
+                    console.log("Opção 4 selecionada: Cadastrar Cliente Mensalista");
+                    break;
+                case "5":
                     console.log("Saindo...");
                     continues = false;
                     break;

@@ -3,9 +3,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 class Vaga {
     numero;
     ocupada;
-    constructor(numero) {
+    tipoVaga;
+    constructor(numero, tipoVaga) {
         this.numero = numero;
         this.ocupada = false;
+        this.tipoVaga = tipoVaga;
     }
     isOcupada() {
         return this.ocupada;
@@ -18,6 +20,9 @@ class Vaga {
     }
     getNumero() {
         return this.numero;
+    }
+    getTipoVaga() {
+        return this.tipoVaga;
     }
 }
 exports.default = Vaga;

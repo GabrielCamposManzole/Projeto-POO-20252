@@ -1,4 +1,5 @@
 export default class EstacionamentoService {
+  
   private vagasTotais: number;
   private vagasOcupadas: number;
 
